@@ -17,4 +17,5 @@ Web Application in NASM (Netwide Assembler) for Linux x86_64
 ```console
 $ nasm main.asm -f elf64 -o main.o
 $ ld main.o -m elf_x86_64 -o main
-$ ./main```
+$ ./main
+```
