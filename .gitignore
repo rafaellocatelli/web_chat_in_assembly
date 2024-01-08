@@ -1,0 +1,5 @@
+# ignore o arquivo executável gerado pelo processo de compilação
+main
+
+# ignore o arquivo objeto gerado pelo processo de compilação
+main.o
