@@ -1,6 +1,7 @@
 %include 'data/dt_system_constants.inc'
 %include 'data/dt_info.inc'
-%include 'data/dt_geral.inc'
+%include 'data/dt_server_process.inc'
+%include 'data/dt_response.inc'
 
 section .text
     global _start

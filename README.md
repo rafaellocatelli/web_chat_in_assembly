@@ -19,3 +19,18 @@ $ nasm main.asm -f elf64 -o main.o
 $ ld main.o -m elf_x86_64 -o main
 $ ./main
 ```
+
+Start
+  :
+  :
+  +--- orquestrador da conexão
+  :                 :   :                 
+  :                 :   +-- cria socket
+  :                 :
+  :                 +-- feedback da conexão
+  :
+  +--- orquestrador de rotas
+              :  :
+              :  +-- identifica o método
+              :
+              +-- identifica a rota
