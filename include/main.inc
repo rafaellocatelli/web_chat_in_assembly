@@ -1,0 +1,7 @@
+%include 'constants/system_call.inc'
+%include 'constants/std_fd.inc'
+%include 'modules/process_exit/main.inc'
+%include 'modules/network_socket/main.inc'
+%include 'modules/pull_connection/main.inc'
+%include 'modules/method_identify/main.inc'
+%include 'modules/route_identify/main.inc'
