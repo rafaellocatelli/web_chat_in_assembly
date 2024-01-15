@@ -5,3 +5,4 @@
 %include 'modules/pull_connection/main.inc'
 %include 'modules/method_identify/main.inc'
 %include 'modules/route_identify/main.inc'
+%include 'modules/request_trace/main.inc'
